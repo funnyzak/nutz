@@ -46,6 +46,31 @@ Nutz遵循Apache协议,完全开源,文档齐全,永远免费(商用也是)
 详情: [https://nutzam.com/core/basic/maven.html](https://nutzam.com/core/basic/maven.html)
 
 
+### 快照版地址
+
+https://nexus.niuqi.cc/service/rest/repository/browse/nutz-snapshots/org/nutz/
+
+```xml
+	<repositories>
+		<repository>
+			<id>nutzcn-snapshots</id>
+			<url>https://nexus.niuqi.cc/repository/nutz-snapshots/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+	<dependencies>
+		<dependency>
+			<groupId>org.nutz</groupId>
+			<artifactId>nutz</artifactId></artifactId>
+			<version>填版本号-SNAPSHOT</version>
+		</dependency>
+		<!-- 其他依赖 -->
+	</dependencies>
+```
+
+
 ## 关于我们
 
 广州市文尔软件科技有限公司
