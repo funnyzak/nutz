@@ -64,7 +64,7 @@ https://nexus.niuqi.cc/service/rest/repository/browse/nutz-snapshots/org/nutz/
 		<dependency>
 			<groupId>org.nutz</groupId>
 			<artifactId>nutz</artifactId></artifactId>
-			<version>填版本号-SNAPSHOT</version>
+			<version>1.r.70-SNAPSHOT</version>
 		</dependency>
 		<!-- 其他依赖 -->
 	</dependencies>
